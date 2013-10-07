@@ -6,9 +6,9 @@ def is_prime(x):
     #elif x % 2 == 0:
     #    return False
     else:
-        for i in range(2, int((x ** 0.5) + 1)): # check odd numbers upto sqrt(x)
+        for i in range(2, int((x ** 0.5) + 1)):
             if x % i == 0:
-		        return False
+                return False
     return True
 
 primes = []
